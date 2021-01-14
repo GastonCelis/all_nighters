@@ -1,26 +1,26 @@
 @charset "UTF-8";
 h1 {
   text-align: center;
-  color: white;
-  background-color: grey;
+  color: orange;
+  background-color: black;
   font-size: 40px;
   font-family: 'Bungee', cursive;
-  border: solid white;
+  border: solid orange;
   margin-top: 70px;
   animation: zoomInDown;
   animation-duration: 1s; }
 
 a {
   text-decoration: none;
-  color: white;
+  color: orange;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center; }
 
 a:hover {
-  color: white; }
+  color: orange; }
 
 body {
-  background-color: grey;
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -31,11 +31,11 @@ body::-webkit-scrollbar {
   width: 10px; }
 
 body::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: orange;
   border-radius: 6px; }
 
 body::-webkit-scrollbar-button {
-  background-color: white;
+  background-color: orange;
   border-radius: 50%; }
 
 table {
@@ -166,7 +166,7 @@ ul li:hover ul {
 
 .negroceles {
   background: black;
-  color: white; }
+  color: orange; }
 
 .formulario__input--textoverde {
   color: #43D945;
@@ -210,7 +210,7 @@ ul li:hover ul {
   overflow: auto;
   width: 500px;
   height: 600px;
-  border: solid white 2px; }
+  border: solid orange 2px; }
 
 .enbloque {
   display: inline-block; }
@@ -227,33 +227,33 @@ ul li:hover ul {
 .botones {
   border-style: solid;
   border-radius: 10px;
-  border-color: white;
-  background-color: grey; }
+  border-color: orange;
+  background-color: black; }
 
 .botones2 {
-  background-color: grey;
+  background-color: black;
   font-size: 17px;
   border-style: solid;
-  border-color: white;
-  color: white; }
+  border-color: orange;
+  color: orange; }
 
 .menu__boton {
   border-style: solid;
   border-radius: 10px;
-  border-color: white;
-  background-color: grey; }
+  border-color: orange;
+  background-color: black; }
 
 .menu__boton2 {
-  background-color: grey;
+  background-color: black;
   font-size: 17px;
   border-style: solid;
-  border-color: white;
-  color: white; }
+  border-color: orange;
+  color: orange; }
 
 .bordeprincipal {
   border-style: solid;
   border-radius: 5%;
-  border-color: white; }
+  border-color: orange; }
 
 .bordeoculto {
   border-style: none; }

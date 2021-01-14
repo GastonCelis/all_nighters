@@ -1,0 +1,500 @@
+@charset "UTF-8";
+h1 {
+  text-align: center;
+  color: orange;
+  background-color: black;
+  font-size: 40px;
+  font-family: 'Bungee', cursive;
+  border: solid orange;
+  margin-top: 70px;
+  animation: zoomInDown;
+  animation-duration: 1s; }
+
+a {
+  text-decoration: none;
+  color: orange;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
+
+a:hover {
+  color: orange; }
+
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/Taberna1.jpg);
+  background-attachment: fixed; }
+
+body::-webkit-scrollbar {
+  width: 10px; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 6px; }
+
+body::-webkit-scrollbar-button {
+  background-color: orange;
+  border-radius: 50%; }
+
+table {
+  font-family: Arial, Helvetica, sans-serif; }
+
+ul {
+  list-style-image: url(../images/iconoalianzamini.png); }
+
+li {
+  font-size: 20px;
+  position: relative;
+  width: 15%; }
+
+li.menu {
+  font-size: 10px;
+  position: relative;
+  width: 130px; }
+
+li.inblock {
+  display: inline-block; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+ul li:hover ul {
+  display: block; }
+
+.fondorojoydorado {
+  background-color: red;
+  color: gold; }
+
+.fondorosa {
+  background-color: #f48cba; }
+
+.fondoblanco {
+  background-color: white; }
+
+.fondonaranja {
+  background-color: #ff7c0a; }
+
+.fondoverdeagua {
+  background-color: #00ff98; }
+
+.fondomarron {
+  background-color: #c69b6d; }
+
+.fondoceleste {
+  background-color: #3fc7eb; }
+
+.fondovioleta {
+  background-color: #a330c9; }
+
+.fondoverde {
+  background-color: #aad372; }
+
+.fondoamarillo {
+  background-color: #fff468; }
+
+.fondopurpura {
+  background-color: #8788ee; }
+
+.fondoazul {
+  background-color: #0070dd; }
+
+.fondobordo {
+  background-color: #c41e3a; }
+
+.fonnegblan {
+  background-color: black;
+  color: white; }
+
+.fondonegro {
+  background-color: black; }
+
+.pie {
+  background-image: radial-gradient(circle, #000000, #151515, #222222, #303030, #3f3f3f);
+  background-size: cover; }
+
+.fondogris {
+  background-color: gray; }
+
+.textoverde {
+  color: #43D945;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.textoazul {
+  color: royalblue;
+  font-family: sans-serif; }
+
+.textoamarillo {
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.textorojo {
+  color: red; }
+
+.textoblanco {
+  color: white; }
+
+.letragrande {
+  font-size: 45px;
+  font-weight: bold; }
+
+.textocentrado {
+  text-align: center; }
+
+.textoceleste {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3fc7eb; }
+
+.fuentetahoma {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.tamañofuente {
+  font-size: 20px; }
+
+.tamañofuente2 {
+  font-size: 30px; }
+
+.interlineado {
+  line-height: 1.5; }
+
+.negroceles {
+  background: black;
+  color: orange; }
+
+.formulario__input--textoverde {
+  color: #43D945;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.imagenredonda {
+  border-radius: 20%; }
+
+.imagenredonda2 {
+  border-radius: 5%; }
+
+.enlinea {
+  display: inline; }
+
+.fixed {
+  position: fixed;
+  top: 2px; }
+
+.flefooter {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px; }
+
+.flexfinal {
+  display: flex;
+  justify-content: flex-end; }
+
+.fixed2 {
+  position: fixed;
+  top: 2px;
+  left: 96%;
+  transform: translate(-90%); }
+
+.flexcentro {
+  display: flex;
+  justify-content: center; }
+
+.overflowscroll {
+  display: block;
+  justify-content: center;
+  overflow: auto;
+  width: 500px;
+  height: 600px;
+  border: solid orange 2px; }
+
+.enbloque {
+  display: inline-block; }
+
+.formulario__input--flexcentro {
+  display: flex;
+  justify-content: center; }
+
+.pie__iconos--ffc {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+.botones {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: orange;
+  background-color: black; }
+
+.botones2 {
+  background-color: black;
+  font-size: 17px;
+  border-style: solid;
+  border-color: orange;
+  color: orange; }
+
+.menu__boton {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: orange;
+  background-color: black; }
+
+.menu__boton2 {
+  background-color: black;
+  font-size: 17px;
+  border-style: solid;
+  border-color: orange;
+  color: orange; }
+
+.bordeprincipal {
+  border-style: solid;
+  border-radius: 5%;
+  border-color: orange; }
+
+.bordeoculto {
+  border-style: none; }
+
+.footerseparacion {
+  margin: 10px; }
+
+.margenpie {
+  padding-top: 10px; }
+
+.menorancho {
+  width: 15%; }
+
+.menostamaño {
+  width: 50%;
+  height: 50%; }
+
+.tamañoauto {
+  width: 200px; }
+
+.pie__iconos--footerseparacion {
+  margin: 10px;
+  transition: all 0.5s; }
+
+.pie__iconos--footerseparacion:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s; }
+
+.enlace {
+  display: block;
+  width: 100%; }
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 600px 600px 600px;
+  grid-template-rows: repeat(600px, 600px, 600px);
+  grid-row-gap: 50px; }
+
+.gridarea1 {
+  display: grid;
+  grid-template-areas: "seccion-1 contenido navegacion"; }
+
+.gridarea1 .seccion-1 {
+  grid-gap: 50px;
+  grid-area: seccion-1; }
+
+section img:hover {
+  transform: scale(2); }
+
+.img1:hover {
+  transform: translate(600px) scale(2); }
+
+.img2:hover {
+  transform: translate(-600px) scale(2); }
+
+.transition {
+  transition: all 1.5s; }
+
+.transition2 {
+  transition: all 0.5s; }
+
+.transition3 {
+  transition: all 1.3s;
+  text-align: center; }
+
+.img3:hover {
+  transition: all 1.5s;
+  transform: scale(1.2); }
+
+.transtexto {
+  transition-property: all;
+  transition-duration: 2s; }
+
+.transtexto:hover {
+  transform: scale(1.2); }
+
+.text {
+  transition-property: all;
+  transition-duration: 2s; }
+
+.text:focus {
+  width: 200px;
+  font-size: 25px; }
+
+.text2 {
+  transition-property: all;
+  transition-duration: 2s; }
+
+.text2:focus {
+  width: 500px;
+  font-size: 20px; }
+
+.menu__icono--img3:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s; }
+
+.menu__boton--img3:hover {
+  transform: scale(1.2); }
+
+@media only screen and (width: 1024px) {
+  nav.parte-2 ul li {
+    width: 10%; }
+  nav.parte-2 ul {
+    justify-content: center; }
+  nav.parte-2 ul li {
+    font-size: 20px;
+    width: 100%; }
+  nav.parte-2 ul li p {
+    font-size: 25px;
+    width: 100%; }
+  nav.parte-2 ul li ul li {
+    font-size: 25px;
+    width: 100%; }
+  .parte-3 h2 {
+    font-size: 35px; }
+  .parte-4 {
+    text-align: center; }
+  .parte-4 nav ul {
+    list-style-image: url(../../images/icono\alianza.png); }
+  .parte-4 nav ul li {
+    text-align: start;
+    font-size: 40px;
+    width: 40%; }
+  footer.parte-5 p {
+    font-size: 30px; } }
+
+@media only screen and (width: 768px) {
+  .parte-1 {
+    font-size: 50px; }
+  nav.parte-2 ul {
+    justify-content: center; }
+  nav.parte-2 ul li {
+    font-size: 20px;
+    width: 100%; }
+  nav.parte-2 ul li p {
+    font-size: 25px;
+    width: 100%; }
+  .parte-3 h2 {
+    font-size: 35px; }
+  .parte-4 {
+    text-align: center; }
+  .parte-4 nav ul {
+    list-style-image: url(../../images/icono\alianza.png); }
+  .parte-4 nav ul li {
+    text-align: start;
+    font-size: 40px;
+    width: 55%; }
+  footer.parte-5 p {
+    font-size: 25px; } }
+
+@media only screen and (width: 480px) {
+  .parte-1 {
+    font-size: 35px; }
+  nav.parte-2 ul {
+    display: inline-block;
+    justify-content: center;
+    padding: 0;
+    margin: 0; }
+  nav.parte-2 ul li {
+    font-size: 15px;
+    width: 100%; }
+  nav.parte-2 ul li p {
+    font-size: 18px;
+    width: 100%; }
+  nav.parte-2 ul li ul {
+    display: none;
+    font-size: 50px;
+    width: 20%;
+    position: absolute; }
+  nav.parte-2 ul li ul li {
+    right: -180px;
+    top: 0px; }
+  nav.parte-2 ul li:hover ul {
+    display: block; }
+  .parte-3 h2 {
+    text-align: center;
+    font-size: 35px; }
+  .parte-4 {
+    text-align: center; }
+  .parte-4 nav ul {
+    list-style-image: url(../../images/icono\alianza.png); }
+  .parte-4 nav ul li {
+    text-align: start;
+    font-size: 30px;
+    width: 75%; }
+  footer.parte-5 p {
+    font-size: 25px; } }
+
+@media only screen and (min-width: 992px) {
+  .col-lggr {
+    width: 430px;
+    height: 215px; }
+  .btn-lggr {
+    width: 15%; } }
+
+.pie__titulo--fctbm {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 10px; }
+
+.contenido--mc {
+  margin-top: 3rem;
+  text-align: center; }
+
+.contenido__titulo {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+.contenido__titulo--tamaño {
+  font-size: 30px; }
+
+.lista__items {
+  color: white; }
+
+.lista__items--mt {
+  margin-top: 1.5rem; }
+
+.lista__items--internos {
+  width: 200px; }
+
+.margentop-1 {
+  margin-top: 1rem; }
+
+.margentop-2 {
+  margin-top: 2rem; }
+
+.margentop-3 {
+  margin-top: 3rem; }
+
+.margentop-4 {
+  margin-top: 4rem; }
+
+.margentop-5 {
+  margin-top: 5rem; }
+
+.margentop-6 {
+  margin-top: 6rem; }
+
+.margentop-7 {
+  margin-top: 7rem; }
+
+.margentop-8 {
+  margin-top: 8rem; }

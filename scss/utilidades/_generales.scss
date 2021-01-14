@@ -1,0 +1,36 @@
+@import "variables";
+@import "condicionales";
+
+
+.pie__titulo--fctbm {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.contenido--mc {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.contenido__titulo {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenido__titulo--tamaño {
+    font-size: 30px;
+}
+
+.lista__items {
+    color: white;
+}
+
+.lista__items--mt {
+    margin-top: 1.5rem;
+}
+
+.lista__items--internos {
+    width: 200px;
+}

@@ -1,0 +1,38 @@
+.footerseparacion{
+    margin: 10px;
+}
+
+.margenpie{
+    padding-top: 10px;
+}
+
+.menorancho {
+    width: 15%;
+}
+
+.menostamaño{
+    width: 50%;
+    height: 50%;
+}
+
+.tamañoauto {
+    width: 200px;
+}
+
+.pie__iconos--footerseparacion {
+    margin: 10px;
+    transition: all 0.5s;
+}
+
+.pie__iconos--footerseparacion:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s;
+}
+
+.enlace {
+    display: block;
+    width: 100%;
+}
+
+
+

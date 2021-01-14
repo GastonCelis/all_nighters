@@ -1,0 +1,98 @@
+@import "variables";
+@import "condicionales";
+
+h1 { 
+    text-align: center;
+    color: $letra-principal;
+    background-color: $fondo-principal;
+    font-size: 40px;
+    font-family: 'Bungee', cursive;
+    border: solid $letra-principal;
+    margin-top: 70px;
+    animation: zoomInDown;
+    animation-duration: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: $letra-principal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a:hover {
+    color: $letra-principal;
+}
+
+body {
+    background-color: $fondo-principal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/Taberna1.jpg);
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $letra-principal;
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-button {
+    background-color: $letra-principal;
+    border-radius: 50%;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-image: url(../images/iconoalianzamini.png);
+}
+
+li {
+    font-size: 20px;
+    position: relative;
+    width: 15%
+}
+
+li.menu {
+    font-size: 10px;
+    position: relative;
+    width: 130px;
+}
+
+li.inblock {
+    display: inline-block;
+}
+
+ul {
+    ul {
+        position: absolute;
+        display: none;
+    }
+}
+
+ul  {
+    ul {
+        li {
+            display: block;
+        }
+    }
+    
+}
+
+ul {
+    li:hover {
+        ul {
+            display: block;
+        }
+    }
+    
+}
+

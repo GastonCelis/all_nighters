@@ -1,0 +1,136 @@
+@media only screen and (width: 1024px){
+    nav.parte-2 ul li{
+        width: 10%;
+    }
+    nav.parte-2 ul{
+        justify-content: center;
+    }
+    nav.parte-2 ul li{
+        font-size: 20px;
+        width: 100%;
+    }
+    nav.parte-2 ul li p{
+        font-size: 25px;
+        width: 100%;
+    }
+    nav.parte-2 ul li ul li {
+        font-size: 25px;
+        width: 100%;
+    }
+    .parte-3 h2 {
+        font-size: 35px;
+    }
+    .parte-4 {
+        text-align: center;
+    }
+    .parte-4 nav ul{
+        list-style-image: url(../../images/icono\alianza.png);
+    }
+    .parte-4 nav ul li{
+        text-align: start;
+        font-size: 40px;
+        width: 40%;
+    }
+    footer.parte-5 p{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (width: 768px){
+    .parte-1{
+        font-size: 50px;
+    }
+    nav.parte-2 ul{
+        justify-content: center;
+    }
+    nav.parte-2 ul li{
+        font-size: 20px;
+        width: 100%;
+    }
+    nav.parte-2 ul li p{
+        font-size: 25px;
+        width: 100%;
+    }
+    .parte-3 h2 {
+        font-size: 35px;
+    }
+    .parte-4 {
+        text-align: center;
+    }
+    .parte-4 nav ul{
+        list-style-image: url(../../images/icono\alianza.png);
+    }
+    .parte-4 nav ul li{
+        text-align: start;
+        font-size: 40px;
+        width: 55%;
+    }
+    footer.parte-5 p{
+        font-size: 25px;
+    }
+}
+
+
+@media only screen and (width: 480px){
+    .parte-1{
+        font-size: 35px;
+    }
+    nav.parte-2 ul{
+        display: inline-block;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    nav.parte-2 ul li{
+        font-size: 15px;
+        width: 100%;
+    }
+    nav.parte-2 ul li p{
+        font-size: 18px;
+        width: 100%;
+    }
+    nav.parte-2 ul li ul{
+        display: none;
+        font-size: 50px;
+        width: 20%;
+        position: absolute;
+    }
+    nav.parte-2 ul li ul li {
+        right: -180px;
+        top: 0px;
+    }
+    nav.parte-2 ul li:hover ul{
+        display: block;
+    }
+    .parte-3 h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .parte-4 {
+        text-align: center;
+    }
+    .parte-4 nav ul{
+        list-style-image: url(../../images/icono\alianza.png);
+    }
+    .parte-4 nav ul li{
+        text-align: start;
+        font-size: 30px;
+        width: 75%;
+    }
+    footer.parte-5 p{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .col-lggr {
+        width: 430px;
+        height: 215px;
+    }
+
+    .btn-lggr {
+        width: 15%;
+    }
+}
+

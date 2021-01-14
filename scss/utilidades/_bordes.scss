@@ -1,0 +1,12 @@
+@import "variables";
+@import "condicionales";
+
+.bordeprincipal {
+    border-style: solid;
+    border-radius: 5%;
+    border-color: $letra-principal;
+}
+
+.bordeoculto {
+    border-style: none;
+}

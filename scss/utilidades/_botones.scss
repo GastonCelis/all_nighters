@@ -1,0 +1,32 @@
+@import "variables";
+@import "condicionales";
+
+.botones {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: $letra-principal;
+    background-color: $fondo-principal;
+}
+
+.botones2 {
+    background-color: $fondo-principal;
+    font-size: 17px;
+    border-style: solid;
+    border-color: $letra-principal;
+    color: $letra-principal;
+}
+
+.menu__boton {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: $letra-principal;
+    background-color: $fondo-principal;
+}
+
+.menu__boton2 {
+    background-color: $fondo-principal;
+    font-size: 17px;
+    border-style: solid;
+    border-color: $letra-principal;
+    color: $letra-principal;
+}

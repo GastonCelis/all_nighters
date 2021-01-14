@@ -1,0 +1,58 @@
+@import "variables";
+@import "condicionales";
+
+.enlinea {
+    display: inline;
+}
+
+.fixed {
+    position: fixed;
+    top: 2px;
+}
+
+.flefooter {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.flexfinal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fixed2 {
+    position: fixed;
+    top: 2px;
+    left: 96%;
+    transform: translate(-90%);
+}
+
+.flexcentro {
+    display: flex;
+    justify-content: center;
+}
+
+.overflowscroll {
+    display: block;
+    justify-content: center;
+    overflow: auto;
+    width: 500px;
+    height: 600px;
+    border: solid $letra-principal 2px;
+}
+
+.enbloque {
+    display: inline-block;
+}
+
+.formulario__input--flexcentro {
+    display: flex;
+    justify-content: center;
+}
+
+.pie__iconos--ffc {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

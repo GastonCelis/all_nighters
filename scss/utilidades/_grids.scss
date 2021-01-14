@@ -1,0 +1,16 @@
+.grid1 {
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: repeat(600px, 600px, 600px);
+    grid-row-gap: 50px;
+}
+
+.gridarea1 {
+    display: grid;
+    grid-template-areas:    "seccion-1 contenido navegacion";
+}
+
+.gridarea1 .seccion-1 {
+    grid-gap: 50px;
+    grid-area: seccion-1;
+}

@@ -1,0 +1,67 @@
+@import "variables";
+@import "condicionales";
+
+.textoverde {
+    color: #43D945;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textoazul {
+    color: royalblue;
+    font-family: sans-serif;
+}
+
+.textoamarillo {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textorojo {
+    color: red;
+}
+
+.textoblanco {
+    color: white;
+}
+
+.letragrande {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.textocentrado {
+    text-align: center;
+}
+
+.textoceleste {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 199, 235)
+}
+
+.fuentetahoma {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tamañofuente {
+    font-size: 20px;
+}
+
+.tamañofuente2 {
+    font-size: 30px;
+}
+
+.interlineado {
+    line-height: 1.5;
+}
+
+.negroceles {
+    background: black;
+    color: $letra-principal;
+}
+
+.formulario__input--textoverde {
+    color: #43D945;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,27 @@
+// COMBINACIONES COLORES BASE INICIO //
+$cbase: comb2;
+@if $cbase == comb1 {
+    $letra-principal: cyan;
+    $fondo-principal: black;
+}
+@else if $cbase == comb2 {
+    $letra-principal: orange;
+    $fondo-principal: black;
+}
+@else if $cbase == comb3 {
+    $letra-principal: #8C5500;
+    $fondo-principal: grey;
+}
+@else if $cbase == comb4 {
+    $letra-principal: red;
+    $fondo-principal: none;
+}
+@else if $cbase == comb5 {
+    $letra-principal: yellow;
+    $fondo-principal: black;
+}
+@else {
+    $letra-principal: white;
+    $fondo-principal: grey;
+}
+// COMBINACIONES COLORES BASE FIN //

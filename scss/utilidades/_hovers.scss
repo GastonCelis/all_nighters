@@ -1,0 +1,71 @@
+@import "variables";
+@import "condicionales";
+
+section img:hover{
+    transform: scale(2);
+}
+
+.img1:hover {
+    transform: translate(600px) scale(2);
+}
+
+.img2:hover {
+    transform: translate(-600px) scale(2)
+}
+
+.transition {
+    transition: all 1.5s
+}
+
+.transition2 {
+    transition: all 0.5s
+}
+
+.transition3 {
+    transition: all 1.3s;
+    text-align: center;
+}
+
+.img3:hover {
+    transition: all 1.5s; 
+    transform: scale(1.2);
+}
+
+.transtexto {
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.transtexto:hover {
+    transform: scale(1.2);
+    
+}
+
+.text {
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.text:focus {
+    width: 200px;
+    font-size: 25px;
+}
+
+.text2 {
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.text2:focus {
+    width: 500px;
+    font-size: 20px;
+}
+
+.menu__icono--img3:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s;
+}
+
+.menu__boton--img3:hover {
+    transform: scale(1.2);
+}

@@ -250,6 +250,9 @@ ul li:hover ul {
   border-color: orange;
   color: orange; }
 
+.btnhamburguer {
+  background-color: orange; }
+
 .bordeprincipal {
   border-style: solid;
   border-radius: 5%;

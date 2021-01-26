@@ -168,8 +168,12 @@ ul li:hover ul {
   background: black;
   color: orange; }
 
-.formulario__input--textoverde {
-  color: #43D945;
+.formulario__input--texto {
+  color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.texto {
+  color: orange;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .imagenredonda {
@@ -252,6 +256,28 @@ ul li:hover ul {
 
 .btnhamburguer {
   background-color: orange; }
+
+.btnfomulario {
+  background-color: orange;
+  color: black;
+  border-color: orange;
+  transition: all 1s; }
+
+.btnfomulario:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: all 1s; }
+
+.btnfomulario2 {
+  background-color: black;
+  color: orange;
+  border-color: black;
+  transition: all 1s; }
+
+.btnfomulario2:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: all 1s; }
 
 .bordeprincipal {
   border-style: solid;

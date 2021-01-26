@@ -61,7 +61,12 @@
     color: $letra-principal;
 }
 
-.formulario__input--textoverde {
-    color: #43D945;
+.formulario__input--texto {
+    color: $letra-principal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto {
+    color: $letra-principal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

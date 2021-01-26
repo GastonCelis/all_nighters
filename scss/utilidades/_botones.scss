@@ -35,3 +35,28 @@
     background-color: $letra-principal;
 }
 
+.btnfomulario {
+    background-color: $letra-principal;
+    color: $fondo-principal;
+    border-color: $letra-principal;
+    transition: all 1s;
+}
+
+.btnfomulario:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.btnfomulario2 {
+    background-color: $fondo-principal;
+    color: $letra-principal;
+    border-color: $fondo-principal;
+    transition: all 1s;
+}
+
+.btnfomulario2:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: all 1s;
+}
